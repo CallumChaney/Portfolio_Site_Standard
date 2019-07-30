@@ -1,7 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
-	
+
 	box-sizing: border-box;
 }
 
@@ -143,7 +143,7 @@ header{
 	width: 1140px;
 	left: 50%;
 	top: 50%;
-	transform:translate(-50%,-50%); 
+	transform:translate(-50%,-50%);
 }
 
 
@@ -164,7 +164,7 @@ header{
 
 .main-nav li{
 	display: inline-block;
-	margin-left: 40px; 
+	margin-left: 40px;
 	margin-top: 20px;
 	font-size: 104%;
 	letter-spacing: 1px;
@@ -258,9 +258,9 @@ header{
 }
 
  .photos{
-	 
+
 	width: 95%;
-	 
+
 	position: absolute;
     top: 50%;
     left: 50%;
@@ -285,7 +285,7 @@ header{
 	overflow: hidden;
 	position: relative;
     text-align: center;
-	color:rgba(220,221,225,0.00);
+	color:rgba(255, 255, 255, 0);
 	transition: color .7s;
 }
 
@@ -299,7 +299,7 @@ header{
     left: 50%;
     transform: translate(-50%, -50%);
 
-	
+
 }
 
 .city-photo img{
@@ -340,6 +340,7 @@ header{
 	border-radius: 20px;
 	border: 2px solid #0097e6;
 	opacity: 0;
+	a
 }
 
 .cta ul{
@@ -354,11 +355,11 @@ header{
 	text-transform: capitalize;
 	letter-spacing: 1px;
 	word-spacing: 3px;
-	
+
 }
 
 .cta a{
-	
+
 	margin: 0;
 	padding: 0;
 }
